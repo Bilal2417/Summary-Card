@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary card</title>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<style>
+    .attribution { font-size: 13px; text-align: center; font-family: "Red Hat Display"; font-weight: 500;}
+    .attribution a { color: hsl(228, 45%, 44%); font-weight: 700;}
+    .attribution a:hover{text-decoration: none; cursor: pointer; transition: 0.3s all;}
+  </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="mainContainer">
+        <div class="containerImage">
+            <img src="order-summary-component-main/images/illustration-hero.svg" alt="">
+        </div>
+        <div class="mainContent">
+            <div class="contentDescription">
+                <h2 class="contentHeading">
+                    Order Summary
+                </h2>
+                <p class="contentParagraph">
+                  <span> You can now listen to millions of songs,</span> 
+                  <span> audiobooks, and podcasts on any 
+                    device</span>
+                    <span> anywhere you like!</span>
+                </p>
+            </div>
+            <div class="containerPayment">
+                <div class="containerPlan">
+                    <div class="annualPlan">
+                        <div class="planIcon">
+                            <ion-icon name="musical-notes-outline"></ion-icon>
+                        </div>
+                        <div class="planPrice">
+                            <h3 class="plan">Annual Plan</h3>
+                            <p class="price">$59.99/year</p>
+                        </div>
+                    </div>
+                    <div class="planChange">
+  <a href="#">Change</a>
+                    </div>
+                </div>
+                <div class="containerOrder">
+                        <a class="payment" href="#">Proceed to Payment</a>
+                        <a class="orderCancellation" href="#">Cancel Order</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.frontendmentor.io/profile/Bilal2417" target="_blank">M Bilal Arsal</a>.
+      </footer>
+</body>
+</html>
